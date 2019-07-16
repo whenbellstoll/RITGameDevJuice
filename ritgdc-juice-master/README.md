@@ -1,4 +1,4 @@
-# RGD Juice Demo
+# RIT GDC Juice Demo
 
 A _Breakout_ clone that demonstrates different levels of juice you can add to a game.
 
