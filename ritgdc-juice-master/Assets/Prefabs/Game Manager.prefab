@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5035186492999938806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5035186492999938807}
+  - component: {fileID: 5035186492999938792}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5035186492999938807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035186492999938806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5035186492999938792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035186492999938806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb082a5a98d78744b46b21ed0545730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PaddleLerp: 0
+  PaddleSquish: 0
+  RotateBall: 0
+  BallSquish: 0
+  ShakeBlocks: 0
+  ShakeCamera: 0
+  BallParticles: 0
+  BlockParticles: 0
+  BlockParticlesCollide: 0
+  BlockParticlesVelocity: 0
+  PaddleSFX: 0
+  BallSFX: 0
+  BlockSFX: 0
+  RandomizePitch: 0
+  Music: 0
+  FieldWidth: 13
+  BlockSize: {x: 1, y: 0.5}
+  BlockColumns: 10
+  BlockRows: 7
+  BlockGridPadding: {x: 0.2, y: 0.2}
+  ActivePalette: 0
+  NoColor:
+    Ball: {r: 0.95, g: 0.968, b: 1, a: 1}
+    Paddle: {r: 0.95, g: 0.968, b: 1, a: 1}
+    Walls: {r: 0.95, g: 0.968, b: 1, a: 1}
+    Blocks: {r: 0.95, g: 0.968, b: 1, a: 1}
+    Background: {r: 0.105000004, g: 0.12000001, b: 0.15, a: 1}
+  ColoredBlocks:
+    Ball: {r: 1, g: 0.8356819, b: 0.30196083, a: 1}
+    Paddle: {r: 1, g: 0.8356819, b: 0.30196083, a: 1}
+    Walls: {r: 1, g: 0.30196083, b: 0.9532388, a: 1}
+    Blocks: {r: 1, g: 0.4546673, b: 0.30196083, a: 1}
+    Background: {r: 0.39677218, g: 0.21564901, b: 0.44099998, a: 1}
+  BlockShake:
+    Intensity: 0.025
+    Decay: 0.12
+    Speed: 10
+  CameraShake:
+    Intensity: 0.235
+    Decay: 0.214
+    Speed: 5
+  BlockPrefab: {fileID: 7831322380774760449, guid: 05374c0b52cb125478ae8b5640b38d6a,
+    type: 3}
+  BallPrefab: {fileID: 1137285956958298158, guid: 5cac7705e99a04e4ca7d409763d8da2b,
+    type: 3}
+  MainCamera: {fileID: 0}
+  Paddle: {fileID: 0}
+  BallSpawn: {fileID: 0}
+  Walls:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MusicSource: {fileID: 0}
+  Blocks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Balls: []
+  Score: 66
